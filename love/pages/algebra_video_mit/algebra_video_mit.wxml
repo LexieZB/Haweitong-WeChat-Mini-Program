@@ -1,0 +1,2 @@
+<!--pages/algebra_video_mit/algebra_video_mit.wxml-->
+<web-view :webview-styles="webviewStyles" src="https://www.bilibili.com/video/BV1ix411f7Yp?spm_id_from=333.337.search-card.all.click"></web-view>

@@ -1,0 +1,8 @@
+<!--pages/algebra_test/algebra_test.wxml-->
+<button class='btn1' bindtap="downloadFile_3" type="primary" >2015年秋季学期期末考试</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_2" type="primary" >2007/2008学年第一学期</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_4" type="primary" >2009/2010学年第一学期</button>
+<text>\n</text>
+

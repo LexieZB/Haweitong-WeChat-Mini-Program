@@ -1,0 +1,11 @@
+<!--pages/algebra_practice/algebra_practice.wxml-->
+<button class='btn1' bindtap="downloadFile_7" type="primary" >行列式</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_5" type="primary" >矩阵及其运算</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_6" type="primary" >矩阵的初等变换与线性方程组</button>
+<view class="whitedivide"></view>
+
+<button class='btn1' bindtap="downloadFile_1" type="primary" >二次型</button>
+<view class="whitedivide"></view>
+

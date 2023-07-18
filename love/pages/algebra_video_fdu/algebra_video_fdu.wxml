@@ -1,0 +1,2 @@
+<!--pages/algebra_video_fdu/algebra_video_fdu.wxml-->
+<web-view :webview-styles="webviewStyles" src="https://www.bilibili.com/video/BV1mJ411r7ZB?spm_id_from=333.337.search-card.all.click"></web-view>
