@@ -1,0 +1,112 @@
+{
+    "pages": [
+        "pages/forum/forum",
+        "pages/index/index",
+        "pages/submit/submit",
+        "pages/me/me",
+        "pages/show/show",
+        "pages/myTie/myTie",
+        "pages/myZanTie/myZanTie",
+        "pages/info/info",
+        "pages/myJoin/myJoin",
+        "pages/search_show/search_show",
+        "pages/knowledge/knowledge",
+        "pages/calculus/calculus",
+        "pages/studytools/studytools",
+        "pages/lifeblock/lifeblock",
+        "pages/studyblock/studyblock",
+        "pages/activityblock/activityblock",
+        "pages/socialblock/socialblock",
+        "pages/voicetoword/voicetoword",
+        "pages/blockrule/blockrule",
+        "pages/calculus_sub/calculus_sub",
+        "pages/calculus_basic/calculus_basic",
+        "pages/calculus_pratice/calculus_pratice",
+        "pages/lookup/lookup",
+        "pages/algebra_basic/algebra_basic",
+        "pages/calculus_video_hit/calculus_video_hit",
+        "pages/remember/index/index",
+        "pages/remember/remember/remember",
+        "pages/remember/remember/cet4/cet4",
+        "pages/remember/remember/cet6/cet6",
+        "pages/remember/word/word",
+        "pages/remember/summarize/summarize",
+        "pages/todolist/index/index",
+        "pages/calculus_video/calculus_video",
+        "pages/calculus_video_zju/calculus_video_zju",
+        "pages/calculus_video_mit/calculus_video_mit",
+        "pages/calculus_test/calculus_test",
+        "pages/algebra_video/algebra_video",
+        "pages/algebra_video_hit/algebra_video_hit",
+        "pages/algebra_video_pku/algebra_video_pku",
+        "pages/algebra_video_fdu/algebra_video_fdu",
+        "pages/algebra_video_mit/algebra_video_mit",
+        "pages/algebra_test/algebra_test",
+        "pages/algebra_practice/algebra_practice",
+        "pages/c_basic/c_basic",
+        "pages/c_video/c_video",
+        "pages/c_video_hit/c_video_hit",
+        "pages/c_video_zju/c_video_zju",
+        "pages/c_video_xmu/c_video_xmu",
+        "pages/c_test/c_test",
+        "pages/c_practice/c_practice",
+        "pages/max_basic/max_basic",
+        "pages/max_video/max_video",
+        "pages/max_video_bnu/max_video_bnu",
+        "pages/max_video_pku/max_video_pku",
+        "pages/max_video_ccnu/max_video_ccnu",
+        "pages/max_practice/max_practice",
+        "pages/max_test/max_test",
+        "pages/history_basic/history_basic",
+        "pages/history_video/history_video",
+        "pages/history_video_zju/history_video_zju",
+        "pages/history_video_pku/history_video_pku",
+        "pages/history_test/history_test",
+        "pages/history_practice/history_practice",
+        "pages/timer/index/index",
+        "pages/remember/summarize_6/summarize_6"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "哈威通",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/forum/forum",
+                "text": "论坛",
+                "iconPath": "/image/comments.png",
+                "selectedIconPath": "/image/comments_act.png"
+            },
+            {
+                "pagePath": "pages/knowledge/knowledge",
+                "text": "学习资料",
+                "iconPath": "/image/book.png",
+                "selectedIconPath": "/image/book-act.png"
+            },
+            {
+                "pagePath": "pages/studytools/studytools",
+                "text": "学习工具",
+                "iconPath": "/image/tools.png",
+                "selectedIconPath": "/image/tools_act.png"
+            },
+            {
+                "pagePath": "pages/me/me",
+                "text": "我的",
+                "iconPath": "/image/me-2.png",
+                "selectedIconPath": "/image/me-2-act.png"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "plugins": {
+        "WechatSI": {
+            "version": "0.3.5",
+            "provider": "wx069ba97219f66d99"
+        }
+    }
+}
