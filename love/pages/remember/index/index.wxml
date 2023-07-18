@@ -1,0 +1,9 @@
+<!--pages/remember/index/index.wxml-->
+
+
+<view class="container">
+  <view class="item" hover-class="active" hover-stay-time="150" bindtap="changePageto4">{{cet4}}</view>
+  <text>\n</text>
+  <view class="item" hover-class="active" hover-stay-time="150" bindtap="changePageto6">{{cet6}}</view>
+</view>
+

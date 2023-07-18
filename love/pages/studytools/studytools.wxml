@@ -1,0 +1,80 @@
+<!--pages/studytools/studytools.wxml-->
+<!--pages/knowledge.wxml-->
+<!--用户头像和昵称-->
+
+<!--间隔灰横条-->
+<view class="graydivide"></view>
+<!--支付-->
+<view class='function' bindtap="bindlookup">
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="/image/word.png"></image>
+      </view>
+      <view class="text">翻译助手</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+        <image class="icon-picture" src="/image/arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<!--间隔灰横条-->
+<!--<view class="graydivide"></view>-->
+<!--间隔白横线-->
+
+<view class="whitedivide"></view>
+<!-- <view class='function' bindtap="bindcalendar">
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <!-- <view class="left-icon"><!--图片-->
+        <!-- <image class="icon-picture" src="/image/calendar.png"></image>
+      </view>
+      <view class="text">早起打卡</view><!--文字-->
+      <!-- <view class="right-icon"><!--图片-->
+        <!-- <image class="icon-picture" src="/image/arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view> --> 
+<view class='function' bindtap="bindremember">
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="/image/translate.png"></image>
+      </view>
+      <view class="text">背单词</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+        <image class="icon-picture" src="/image/arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="whitedivide"></view>
+<view class='function' bindtap="bindtodolist">
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="/image/list.png"></image>
+      </view>
+      <view class="text">Todolist</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+        <image class="icon-picture" src="/image/arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="whitedivide"></view>
+<view class='function' bindtap="bindtimer">
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="/image/time.png"></image>
+      </view>
+      <view class="text">番茄时钟</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+        <image class="icon-picture" src="/image/arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
