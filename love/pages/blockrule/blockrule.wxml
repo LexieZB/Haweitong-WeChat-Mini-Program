@@ -1,0 +1,33 @@
+<!--pages/blockrule/blockrule.wxml-->
+<!-- <text>论坛发帖规则</text>
+ <view class='container'>
+    论坛发帖规则
+    <text>\n</text>
+    
+    本论坛共有四个分区：
+    生活区、学习区、活动区、社交区。
+    发帖时请遵守分区规则，并在帖子题目中用【】概括重点。
+    比如【旧物交易】【结伴拼车】【互帮互助】等
+</view> -->
+<view class='section'>
+    论坛发帖规则
+    <text>\n</text>
+    <text>\n</text>
+    本论坛共有四个分区：
+    生活区、学习区、活动区、社交区。
+    发帖时请遵守分区规则，并在帖子题目中用【】概括重点。
+    比如【旧物交易】【结伴拼车】【互帮互助】等
+</view>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<image src='/image/rulerule.png'></image>
+
+

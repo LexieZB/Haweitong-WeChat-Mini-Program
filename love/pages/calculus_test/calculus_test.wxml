@@ -1,0 +1,55 @@
+<!--pages/calculus_test/calculus_test.wxml-->
+<!--间隔灰横条-->
+<view class="graydivide"></view>
+<!--支付-->
+<view class='function' bindtap="bindhit">
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="/image/hit.jpg"></image>
+      </view>
+      <view class="text">2011年第一学期</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+        <image class="icon-picture" src="/image/arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<!--间隔灰横条-->
+<!--<view class="graydivide"></view>-->
+<!--间隔白横线-->
+<view class="whitedivide"></view>
+<!--收藏-->
+<view class='function' bindtap="bindzju">
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="/image/zju.jpg"></image>
+      </view>
+      <view class="text">2005/2006学年秋季学期（含答案）</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+        <image class="icon-picture" src="/image/arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<!--间隔白横线-->
+<view class="whitedivide"></view>
+<!--朋友圈-->
+<view class='function' bindtap="bindmit">
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="/image/mit.jpg"></image>
+      </view>
+      <view class="text">麻省理工大学网课</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+        <image class="icon-picture" src="/image/arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<!--间隔白横线-->
+
+
+

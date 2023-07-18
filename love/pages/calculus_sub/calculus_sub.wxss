@@ -1,0 +1,36 @@
+/* pages/calculus_sub/calculus_sub.wxss */
+.inputContent{
+    margin: 100rpx 20rpx 20rpx 20rpx;
+  }
+  input{
+    border: 1rpx solid #ccc;
+    margin-top: 20rpx;
+    height: 80rpx;
+    min-height: 80rpx;
+  }
+
+  .btn{
+    height: 90rpx !important;
+    width: 100%  !important;
+    color: white !important;
+    font-size: 40rpx !important;
+    background-color: rgb(22, 169, 238) !important ;
+
+    
+    }
+    .btn1 {
+        width: 90% !important;
+        margin-top: 20rpx !important;
+        /* background-color: beige !important; */
+        background-color:#3197ed !important;
+        color: #ffffff !important;
+        border-radius: 98rpx !important; 
+      }
+      .whitedivide {/*白色分割线*/
+        height: 1px;
+        background-color: #ffffff;
+        width: 56px;
+        position:relative;
+        top: 0px;
+      }
+  

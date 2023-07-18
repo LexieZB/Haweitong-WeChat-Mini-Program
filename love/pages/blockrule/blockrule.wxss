@@ -1,0 +1,16 @@
+/* pages/blockrule/blockrule.wxss */
+.container{
+    /* border: 2rpx black solid; */
+    width: 750rpx;
+    height: 100rpx;
+    text-align: justify;
+    line-height: 50rpx;
+    
+}
+.section{
+    position: fixed;
+    text-align: center;
+    bottom: 800rpx;
+    left: 0;
+    right: 0;  
+}

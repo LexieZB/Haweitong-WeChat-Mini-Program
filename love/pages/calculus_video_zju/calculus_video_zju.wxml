@@ -1,0 +1,2 @@
+<!--pages/calculus_video_zju/calculus_video_zju.wxml-->
+<web-view :webview-styles="webviewStyles" src="https://www.bilibili.com/video/BV1Lt411r7NQ?spm_id_from=333.337.search-card.all.click"></web-view>

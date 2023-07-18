@@ -1,0 +1,16 @@
+/* pages/c_practice/c_practice.wxss */
+.btn1 {
+    width: 90% !important;
+    margin-top: 20rpx !important;
+    /* background-color: beige !important; */
+    background-color:#3197ed !important;
+    color: #ffffff !important;
+    border-radius: 98rpx !important; 
+  }
+  .whitedivide {/*白色分割线*/
+    height: 1px;
+    background-color: #ffffff;
+    width: 56px;
+    position:relative;
+    top: 0px;
+  }

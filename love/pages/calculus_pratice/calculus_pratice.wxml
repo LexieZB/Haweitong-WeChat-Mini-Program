@@ -1,0 +1,12 @@
+<!--pages/calculus_pratice/calculus_pratice.wxml-->
+<!-- 下载文件（word/excel/ppt/pdf等） -->
+<button class='btn1' bindtap="downloadFile_1" type="primary" >一元函数微分学</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_2" type="primary" >多元函数微分学</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_3" type="primary" >不定积分与定积分</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_4" type="primary" >曲线曲面积分</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_5" type="primary" >换元与分部积分法</button>
+<view class="whitedivide"></view>

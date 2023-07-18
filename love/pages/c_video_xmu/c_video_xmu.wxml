@@ -1,0 +1,2 @@
+<!--pages/c_video_xmu/c_video_xmu.wxml-->
+<web-view :webview-styles="webviewStyles" src="https://www.bilibili.com/video/BV1At411g7ou?spm_id_from=333.337.search-card.all.click"></web-view>

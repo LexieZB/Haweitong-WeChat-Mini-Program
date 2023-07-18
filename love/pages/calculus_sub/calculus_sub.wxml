@@ -1,0 +1,14 @@
+<!-- 下载文件（word/excel/ppt/pdf等） -->
+<button class='btn1' bindtap="downloadFile_one" type="primary" >2011年第一学期</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_four" type="primary" >2005/2006学年秋季学期</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_five" type="primary" >2006-2007年秋季学期</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_six" type="primary" >2008/2009学年秋季学期</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_ten" type="primary" >15级模拟真题</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_eleven" type="primary" >工数押题测试</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_twelve" type="primary" >2018年秋季试题</button>
