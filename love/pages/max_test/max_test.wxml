@@ -1,0 +1,5 @@
+<!--pages/max_test/max_test.wxml-->
+<button class='btn1' bindtap="downloadFile_7" type="primary" >马原大题汇总</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_8" type="primary" >2016年第一学期试题</button>
+<view class="whitedivide"></view>

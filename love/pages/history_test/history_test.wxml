@@ -1,0 +1,8 @@
+<!--pages/history_test/history_test.wxml-->
+<button class='btn1' bindtap="downloadFile_1" type="primary" >07级试题</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_3" type="primary" >2008/2009学年秋季学期</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_2" type="primary" >2009/2010学年秋季学期</button>
+<view class="whitedivide"></view>
+

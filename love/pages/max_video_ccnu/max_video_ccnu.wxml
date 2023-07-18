@@ -1,0 +1,2 @@
+<!--pages/max_video_ccnu/max_video_ccnu.wxml-->
+<web-view :webview-styles="webviewStyles" src="https://www.bilibili.com/video/BV17E411H7Vh?spm_id_from=333.337.search-card.all.click"></web-view>

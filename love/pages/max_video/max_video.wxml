@@ -1,0 +1,53 @@
+<!--pages/max_video/max_video.wxml-->
+<view class="graydivide"></view>
+<!--支付-->
+<view class='function' bindtap="bindbnu">
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="/image/bnu.jpg"></image>
+      </view>
+      <view class="text">北师大网课</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+        <image class="icon-picture" src="/image/arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<!--间隔灰横条-->
+<!--<view class="graydivide"></view>-->
+<!--间隔白横线-->
+<view class="whitedivide"></view>
+<!--收藏-->
+<view class='function' bindtap="bindpku">
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="/image/pku.jpg"></image>
+      </view>
+      <view class="text">北京大学网课</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+        <image class="icon-picture" src="/image/arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<!--间隔白横线-->
+<view class="whitedivide"></view>
+<!--朋友圈-->
+<view class='function' bindtap="bindccnu">
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="/image/ccnu.jpg"></image>
+      </view>
+      <view class="text">华中师范大学网课</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+        <image class="icon-picture" src="/image/arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<!--间隔白横线-->
+
+

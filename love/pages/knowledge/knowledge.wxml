@@ -1,0 +1,90 @@
+<!--pages/knowledge.wxml-->
+<!--用户头像和昵称-->
+
+<!--间隔灰横条-->
+<view class="graydivide"></view>
+<!--支付-->
+<view class='function' bindtap="bindcalculus">
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="/image/calculus.png"></image>
+      </view>
+      <view class="text">微积分</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+        <image class="icon-picture" src="/image/arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<!--间隔灰横条-->
+<!--<view class="graydivide"></view>-->
+<!--间隔白横线-->
+<view class="whitedivide"></view>
+<!--收藏-->
+<view class='function' bindtap="bindalgebra">
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="/image/algebra.png"></image>
+      </view>
+      <view class="text">线性代数与空间解析几何</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+        <image class="icon-picture" src="/image/arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<!--间隔白横线-->
+<view class="whitedivide"></view>
+<!--朋友圈-->
+<view class='function' bindtap="bindc">
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="/image/C.png"></image>
+      </view>
+      <view class="text">C语言</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+        <image class="icon-picture" src="/image/arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<!--间隔白横线-->
+<view class="whitedivide"></view>
+<!--卡包-->
+<view class='function' bindtap="bindhistory">
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="/image/history.png"></image>
+      </view>
+      <view class="text">中国近现代史纲要</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+        <image class="icon-picture" src="/image/arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<!--间隔白横线-->
+<view class="whitedivide"></view>
+<!--表情-->
+<view class='function' bindtap="bindmax">
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="/image/marx.png"></image>
+      </view>
+      <view class="text">马克思主义基本原理概论</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+        <image class="icon-picture" src="/image/arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<!--间隔灰横条-->
+<view class="graydivide"></view>
+<!--设置-->
+
+

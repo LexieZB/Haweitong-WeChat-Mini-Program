@@ -1,0 +1,48 @@
+<!--pages/me/me.wxml-->
+<!--我的头像展示start-->
+<view class="myInfo">
+  <!--头像和昵称-->
+  <view wx:if="{{!openid}}">
+    <button open-type="getUserInfo" lang="zh_CN" bindtap="getUserProfile">点击登录</button>
+  </view>
+
+  <view class="uploader-container" wx:if="{{openid}}">
+    <image class="image" src="{{userinfo.avatarUrl}}" style="cover"></image>
+    <view class="name">{{userinfo.nickName}}</view>
+  </view>
+  <!--系统当前总人数-->
+  <view wx:if="{{openid}}" class="count">{{}}</view>
+  <view wx:if="{{openid}}" class="count">欢迎使用</view>
+</view>
+<!--我的头像展示end-->
+
+<!--底部功能展示-->
+<view class="other">
+
+  <view class="other-item" bindtap="info">
+    <view><icon class="iconfont icon-wodetiezi"></icon><text>我的资料</text></view>
+    <image src="/image/right.png"></image>
+  </view>
+
+  <view class="other-item" bindtap="myTie">
+    <view><icon class="iconfont icon-wodetiezi"></icon><text>我的帖子</text></view>
+    <image src="/image/right.png"></image>
+  </view>
+  
+  <view class="other-item" bindtap="join">
+    <view><icon class="iconfont icon-wodetiezi"></icon><text>我的参与</text></view>
+    <image src="/image/right.png"></image>
+  </view>
+
+  <view class="other-item" bindtap="zan">
+    <view><icon class="iconfont icon-wodetiezi"></icon><text>我的点赞</text></view>
+    <image src="/image/right.png"></image>
+  </view>
+
+  <!-- <view class="other-item" bindtap="contact">
+    <view><icon class="iconfont icon-shoucang"></icon><text>建议意见</text></view>
+    <image src="/image/right.png"></image>
+  </view> -->
+  
+ 
+</view>

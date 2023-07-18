@@ -1,0 +1,107 @@
+<!--pages/forum/forum.wxml-->
+<!--pages/knowledge.wxml-->
+<!--用户头像和昵称-->
+<view class="search">
+  <input value="{{search}}" bindblur="blur"  type="text" placeholder="输入待查找的帖子"/>
+  <view class="find" bindtap="find">查找</view>
+</view>
+<!--间隔灰横条-->
+<!--<view class="graydivide"></view>-->
+<!--支付-->
+<view class='function' bindtap="bindlife">
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="/image/buildings.png"></image>
+      </view>
+      <view class="text">生活区</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+        <image class="icon-picture" src="/image/arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<!--间隔灰横条-->
+<!--<view class="graydivide"></view>-->
+<!--间隔白横线-->
+<view class="whitedivide"></view>
+<!--收藏-->
+<view class='function' bindtap="bindstudy">
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="/image/AZbook.png"></image>
+      </view>
+      <view class="text">学习区</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+        <image class="icon-picture" src="/image/arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<!--间隔白横线-->
+<view class="whitedivide"></view>
+<!--朋友圈-->
+<view class='function' bindtap="bindactivity">
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="/image/party.png"></image>
+      </view>
+      <view class="text">活动区</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+        <image class="icon-picture" src="/image/arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<!--间隔白横线-->
+<view class="whitedivide"></view>
+<!--社交区-->
+<view class='function' bindtap="bindsocial">
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="/image/handshake.png"></image>
+      </view>
+      <view class="text">社交区</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+        <image class="icon-picture" src="/image/arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<!--间隔白横线-->
+<view class="whitedivide"></view>
+
+<!--间隔灰横条-->
+<view class="graydivide"></view>
+<!--设置-->
+<view class='function' bindtap="bindpost">
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="/image/compose.png"></image>
+      </view>
+      <view class="text">发帖</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+        <image class="icon-picture" src="/image/arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="whitedivide"></view>
+<view class='function' bindtap="bindrule">
+  <view style="width:100%">
+    <view class="functioninformation"><!--左边图片&文字-->
+      <view class="left-icon"><!--图片-->
+        <image class="icon-picture" src="/image/rule.png"></image>
+      </view>
+      <view class="text">社区规则</view><!--文字-->
+      <view class="right-icon"><!--图片-->
+        <image class="icon-picture" src="/image/arrow.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+

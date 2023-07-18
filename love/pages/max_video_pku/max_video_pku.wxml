@@ -1,0 +1,2 @@
+<!--pages/max_video_pku/max_video_pku.wxml-->
+<web-view :webview-styles="webviewStyles" src="https://www.bilibili.com/video/BV1Lf4y177iY?spm_id_from=333.337.search-card.all.click"></web-view>

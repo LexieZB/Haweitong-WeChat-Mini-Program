@@ -1,0 +1,12 @@
+<!--pages/max_practice/max_practice.wxml-->
+<button class='btn1' bindtap="downloadFile_1" type="primary" >绪论练习题</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_2" type="primary" >第一章练习题</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_3" type="primary" >第二章练习题</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_4" type="primary" >第三章练习题</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_5" type="primary" >第四章练习题</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_6" type="primary" >第五章练习题</button>

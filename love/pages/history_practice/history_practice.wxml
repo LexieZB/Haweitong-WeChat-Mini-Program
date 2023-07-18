@@ -1,0 +1,5 @@
+<!--pages/history_practice/history_practice.wxml-->
+<button class='btn1' bindtap="downloadFile_4" type="primary" >单项选择题练习题</button>
+<view class="whitedivide"></view>
+<button class='btn1' bindtap="downloadFile_5" type="primary" >简答题练习题</button>
+<view class="whitedivide"></view>
